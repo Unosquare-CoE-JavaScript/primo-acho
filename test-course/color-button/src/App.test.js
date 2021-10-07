@@ -1,37 +1,37 @@
-import { render, screen, fireEvent } from '@testing-library/react';
-import App from './App';
+import { render, screen, fireEvent } from "@testing-library/react";
+import App from "./App";
 
-test('button has correct initial color', () => {
+test("button has correct initial color", () => {
   render(<App />);
-  const colorButton = screen.getByRole('button', { name:'Change to blue' });
+  const colorButton = screen.getByRole("button", { name: "Change to blue" });
 
-  expect(colorButton).toHaveStyle({ backgroundColor: 'red' });
+  expect(colorButton).toHaveStyle({ backgroundColor: "red" });
   //expect te backgroung
 
   fireEvent.click(colorButton);
 
-  expect(colorButton).toHaveStyle({ backgroundColor: 'blue' });
+  expect(colorButton).toHaveStyle({ backgroundColor: "blue" });
 
-  expect(colorButton.textContent).toBe('Change to red');
+  expect(colorButton).toHaveTextContent("Change to red");
 });
 
-test('initial conditions',()=>{
-  render(<App/>);
+test("initial conditions", () => {
+  render(<App />);
   //check the button is enable
-  const colorButton = screen.getByRole('button', { name:'Change to blue' });
+  const colorButton = screen.getByRole("button", { name: "Change to blue" });
   expect(colorButton).toBeEnabled();
   //check the checkbox start with unchecked
-  const checkbox = screen.getByRole('checkbox');
+  const checkbox = screen.getByRole("checkbox");
   expect(checkbox).not.toBeChecked();
-})
+});
 
-test('checkbox functionality', ()=>{
-  render(<App/>);
+test("checkbox functionality", () => {
+  render(<App />);
   //check the button is enable
-  const colorButton = screen.getByRole('button', { name:'Change to blue' });
+  const colorButton = screen.getByRole("button", { name: "Change to blue" });
   //check the checkbox start with unchecked
-  const checkbox = screen.getByRole('checkbox');
-  
+  const checkbox = screen.getByRole("checkbox");
+
   fireEvent.click(checkbox);
 
   //check if button is enable

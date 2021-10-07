@@ -1,0 +1,6 @@
+- TDD (test driven development) refers to makes the tests first and then write te code
+- there are many kind of tests
+  - unit test
+  - funtional tests
+  - integration tests
+  - e2e tests
