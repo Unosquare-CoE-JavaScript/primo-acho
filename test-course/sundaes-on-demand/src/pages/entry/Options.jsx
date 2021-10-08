@@ -2,19 +2,25 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import ScoopOption from "./ScoopOption";
 import Row from "react-bootstrap/Row";
+import AlertBanner from "../common/AlertBanner";
 
-export default function Options({ optionsType }) {
+export default function Options({ optionType }) {
   const [items, setItems] = useState([]);
+  const [error, setError] = useState(false);
   useEffect(() => {
     axios
-      .get(`http://localhost:3030/scoops`)
+      .get(`http://localhost:3030/${optionType}`)
       .then((response) => {
         setItems(response.data);
       })
       .catch((err) => {
-        //TODO: handle errors
+        setError(true);
       });
-  }, [optionsType]);
+  }, [optionType]);
+
+  if (error) {
+    return <AlertBanner />;
+  }
 
   const ItemComponent = ScoopOption;
 
