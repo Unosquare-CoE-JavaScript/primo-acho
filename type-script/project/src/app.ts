@@ -1,10 +1,6 @@
-class Departament {
-    name: string;
+import { ProjectInput } from "./components/project-input";
+import { ProjectList } from "./components/project-list";
 
-    constructor(n: string) {
-        this.name = n;
-    }
-}
-
-const dep = new Departament('Casa');
-console.log(dep);
+new ProjectInput();
+new ProjectList('active');
+new ProjectList('finished');
