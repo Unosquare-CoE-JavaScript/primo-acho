@@ -26,3 +26,5 @@ This repo has all projects I've develop, and I've been learning in the last mont
 3. [React modern Patterns](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/react-patterns "React modern Patterns")
 4. [NextJs](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/next-courses "NextJs")
 5. [Jest and testing Library](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/test-course "Jest and testing Library")
+6. [Type Script deepDive](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/type-script "Type Script deepDive")
+9. [Css, flexbox and grid](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/css-guide "Css, flexbox and grid")
