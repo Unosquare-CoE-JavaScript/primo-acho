@@ -28,3 +28,6 @@ This repo has all projects I've develop, and I've been learning in the last mont
 5. [Jest and testing Library](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/test-course "Jest and testing Library")
 6. [Type Script deepDive](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/type-script "Type Script deepDive")
 9. [Css, flexbox and grid](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/css-guide "Css, flexbox and grid")
+10. [code wars ](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/codewars "Code wars challenges")
+11. [nodejs restful](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/node-rest "Nodejs RESTFUL - API")
+12. [test TDD](https://github.com/Unosquare-CoE-JavaScript/primo-acho/tree/main/test-TDD "nodejs test with TDD")
