@@ -1,4 +1,4 @@
-
+//we take the minimum next hamming number, focused on perfomance
     
 function hammingPrimo(n) {
     var seq = [1];

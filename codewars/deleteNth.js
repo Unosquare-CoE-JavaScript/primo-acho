@@ -1,3 +1,4 @@
+//given an array and an N value, we limit the existence of the number in N times
 function deleteNth(arr,n){
     let lstCount = {};
     let newArr = [];

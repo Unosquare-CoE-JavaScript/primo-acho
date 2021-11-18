@@ -1,3 +1,5 @@
+  //this function solves sudoku 9 x 9 
+  
   function validSolution(board){
     board.forEach(element => {
       if(!validSequence(element)) {

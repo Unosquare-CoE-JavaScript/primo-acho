@@ -1,3 +1,5 @@
+//we add the next number at the final of the string without increasing the string length
+//unless ther is no option
 function incrementString (strng) {
     const str = [...strng];
     const frt = str.find(elem=>elem.match(/[1-9]/));

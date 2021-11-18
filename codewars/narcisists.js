@@ -1,3 +1,4 @@
+//a narcisisstic number y de one which is the sum of their own digits power of the number of digits
 function narcissistic(value) {
     if(value>0) {
         let num = value.toString();

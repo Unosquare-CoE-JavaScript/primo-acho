@@ -1,3 +1,4 @@
+// this task return the distance from the nearest vowel in the string
 const vowelCodes = [97, 101, 105, 111, 117];
 function f (s) {
     let distance = [];

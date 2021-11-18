@@ -1,3 +1,4 @@
+//this functions get the determinant of a N * N matrix
 function determinant(m) {
     //check if matrix length is just 1 row
     if (m.length ===1) {

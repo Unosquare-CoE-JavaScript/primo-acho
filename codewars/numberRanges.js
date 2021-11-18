@@ -1,3 +1,4 @@
+//this functions takes an array, and returns al ranges posibles
 function solution(list){
     let minRange=null, maxRange=null;
     let range = [];

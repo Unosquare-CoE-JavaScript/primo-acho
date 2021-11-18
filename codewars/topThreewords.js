@@ -1,3 +1,5 @@
+//this exercise shows most 3 words used in a text
+
 function topThreeWords(text) {
     text = text.toLowerCase();
     text = text.replace(/#+/,' ');

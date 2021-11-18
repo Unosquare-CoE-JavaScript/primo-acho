@@ -1,3 +1,6 @@
+//each animal eats another so, in chain
+//given an array of actions we determine which assertions are lies
+
 function countTheLies(n,introduction) {
     let similars =[];
 

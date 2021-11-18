@@ -1,3 +1,5 @@
+//we get the posible PIN combinations given a initial combination
+
 const adyacents = {
     '1': ['1','2','4'],
     '2': ['2','1','3','5'],

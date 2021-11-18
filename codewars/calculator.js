@@ -1,4 +1,4 @@
-
+// this class takes an array and operate basic functions 
 const calculator = function() {
     this.evaluate = string => {
       // do code here

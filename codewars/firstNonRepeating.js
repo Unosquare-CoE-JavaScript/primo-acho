@@ -1,3 +1,4 @@
+//this function gets the fisrt non reapeating char in sequence
 function firstNonRepeatingLetter(s) {
     // Add your code here
     let splited = [...s];

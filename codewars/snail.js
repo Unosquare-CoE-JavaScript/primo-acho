@@ -1,3 +1,4 @@
+//these ecercise fills an array N x N like a snail
 snail = function(array) {
     // enjoy;
     if(array[0].length==0) {
@@ -18,7 +19,6 @@ snail = function(array) {
       for (let i = n - a; i > a; i--) {
         result.push(array[i][a])
       }
-      console.log(result);
    }
    if ((n+1) % 2 == 1) {
       result.push(array[n / 2 ][n / 2]);

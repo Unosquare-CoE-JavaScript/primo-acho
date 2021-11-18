@@ -1,3 +1,5 @@
+//visualize how different are two strings
+
 function mix(s1, s2) {
     let str1 = [...s1];
     let str2 = [...s2];

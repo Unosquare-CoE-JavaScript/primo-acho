@@ -1,3 +1,5 @@
+//these code simulates codewars ranks, begining with -8 to 8 and the taks completed
+
 class User {
   constructor() {
     this.rank = 7;

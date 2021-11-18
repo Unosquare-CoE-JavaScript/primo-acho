@@ -1,3 +1,4 @@
+//this functions verify whether two arrays has te same structure or not
 Array.prototype.sameStructureAs = function (other) {
     //valid if args are array
     if(!Array.isArray(this) || !Array.isArray(other)){

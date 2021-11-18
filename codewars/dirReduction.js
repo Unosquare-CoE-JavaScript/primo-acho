@@ -1,3 +1,6 @@
+//some directions takes yout to the same place, so given a sequence, we reduce till there is no 
+// useless movement
+
 function opossite(dir1, dir2) {
     if((dir1==='NORTH' && dir2=='SOUTH') || (dir2==='NORTH' && dir1=='SOUTH')) {
         return true;

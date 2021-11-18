@@ -1,3 +1,5 @@
+//These exercise valid whether a sudoku is properly filled
+
 function validSolution(board){
   //first we evaluate horizontal grids
   board.forEach(element => {

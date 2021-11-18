@@ -1,3 +1,4 @@
+//this find the next smaller digit with the same digits
 function nextSmaller(n) {
     const sequence = [...String(n)];
     let digits = [sequence.pop()];

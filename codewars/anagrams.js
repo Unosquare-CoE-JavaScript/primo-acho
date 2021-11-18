@@ -1,3 +1,5 @@
+//look for number of anagrams combinations found in array
+
 function anagrams(word, words) {
     let matchs = [];
     let orderedAnagram = [...word].sort()

@@ -1,3 +1,5 @@
+//determines your final position whether you move north west, south, and east
+
 function isValidWalk(walk) {
     const minutes = 10
     if( walk.length ===minutes) {

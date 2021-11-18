@@ -1,3 +1,5 @@
+//this valid a sudoku table N x N similar to a previus one
+
 var Sudoku = function(data) 
 {
   //   Private methods

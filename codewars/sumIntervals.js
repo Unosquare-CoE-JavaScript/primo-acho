@@ -1,3 +1,4 @@
+//these exercise takes all intervals and the ones that are already in use just left them or join 
 function sumIntervals(intervals){
     let proceeded = [];
     let sum = 0;

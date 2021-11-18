@@ -1,3 +1,5 @@
+// take the Nth  number of the sequence of the bdl Linear 
+
 function dblLinear(n) {
     var ai = 0, bi = 0, eq = 0;
     var sequence = [1];

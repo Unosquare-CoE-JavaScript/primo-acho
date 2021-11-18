@@ -1,3 +1,6 @@
+//this makes all posible combinations from a sequence of words works with optimization for
+// big cases
+
 function permutations(string) {
   let splitted = [...string];
   let permutations = [];
