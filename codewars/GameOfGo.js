@@ -61,8 +61,21 @@ class Go {
     }
     eraseCaptured() {
         let killable = (this.turn='x')?'o':'x';;
-        
+        let killablePieces = [];
+        for(let i=0;i<this.size;i++) {
+            for(let j = 0; j<this.size;j++) {
+                let groups = groupsNear(i,j);
+            }
+        }
         return true;
+    }
+
+    belongsToGroup(i,j) {
+        let near = [];
+        //
+        if(i==0) {
+            
+        }
     }
     //TO-DO: handy capstones logic to add 
 }

@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  mongodb:
+    image: redis
+    container_name: rediscache
+    ports:
+    - 6379:6379
+    restart: unless-stopped
